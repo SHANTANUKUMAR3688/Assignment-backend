@@ -8,9 +8,9 @@ const database = require("./config/config")
 
 const loginRoute = require("./routes/auth-routes");
 
-const allowedOrigins = ['http://localhost:5173'];
+//const allowedOrigins = ['http://localhost:5173'];
 //versel frontend url
-// const allowedOrigins = 'https://atal-optical-frontend.vercel.app';
+ const allowedOrigins = 'https://assignment-frontend-neon-psi.vercel.app';
 const corsOptions = {
   origin: function (origin, callback) {
     if (!origin || allowedOrigins.includes(origin)) {
