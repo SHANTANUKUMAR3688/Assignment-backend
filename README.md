@@ -13,8 +13,7 @@ Follow the steps below to run this project locally.
 ###  Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/auth-api.git
-cd auth-api
+git clone https://github.com/SHANTANUKUMAR3688/Assignment-backend.git
 ```
 
 ### 2️ Install Dependencies
@@ -32,9 +31,7 @@ npm install
 Create a `.env` file in the root directory and add the following:
 
 ```env
-PORT=5000
 MONGO_URI=mongodb://localhost:27017/authDB
-JWT_SECRET=your_secret_key
 ```
 
 If using **MongoDB Atlas**, replace `MONGO_URI` with your cloud connection string.
